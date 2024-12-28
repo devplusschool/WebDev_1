@@ -5,3 +5,39 @@
 .anim:hover{
     transform:scale(1.1);
 }
+
+
+nav{
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    border: 2px solid rgb(1, 1, 54);
+    text-align: center;
+    background-color:  rgb(1, 1, 54);
+    height: 25px;
+}
+
+nav ul{
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav:hover ul{
+    display: block;
+}
+
+nav ul li{
+    border: 2px solid  rgb(1, 1, 54);
+    background-color:  rgb(1, 1, 54);
+    color: white;
+    height: 35px;
+    text-align: center;
+    transition:all .2s ease-in-out;
+}
+
+nav ul li:hover{
+    transform:scale(1.1);
+    background-color: grey;
+}
