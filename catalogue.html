@@ -4,20 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BATMAN BEST MOVIES</title>
-    <link rel="shortcut icon" href="movies/logo.png">
+    <title>BATMAN BEST images</title>
+    <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="class.css">
 </head>
 
-<body style="background-image: url(background.jpg);background-repeat: no-repeat;
+
+<body style="background-image: url(images/back.png);background-repeat: no-repeat;
      background-size: cover;">
+
+    <!--Menú desplegable-->
+    <div style="display: grid;grid-template-columns: repeat(4,1fr);">
+        <div style="grid-column: 1;grid-row: 1;" class="list">
+            <nav> Inicio
+                <ul>
+                    <li>Opción 1</li>
+                    <li>Opción 2</li>
+                    <li>Opción 3</li>
+                    <li>Opción 4</li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div style="grid-column: 2;grid-row: 1;" class="list">
+            <nav> Inicio
+                <ul>
+                    <li>Opción 1</li>
+                    <li>Opción 2</li>
+                    <li>Opción 3</li>
+                    <li>Opción 4</li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div style="grid-column: 3;grid-row: 1;" class="list">
+            <nav> Inicio
+                <ul>
+                    <li>Opción 1</li>
+                    <li>Opción 2</li>
+                    <li>Opción 3</li>
+                    <li>Opción 4</li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div style="grid-column: 4;grid-row: 1;" class="list">
+            <nav> Inicio
+                <ul>
+                    <li>Opción 1</li>
+                    <li>Opción 2</li>
+                    <li>Opción 3</li>
+                    <li>Opción 4</li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <!--Contenedor general-->
     <div style="display:grid;grid-template-columns:repeat(3,1fr)">
         <div style="grid-column: 1;grid-row:1">
 
             <a href="https://es.wikipedia.org/wiki/Batman_Begins">
                 <center>
-                    <img src="movies/p1.jpg" width="300" class="anim" style="margin:25px">
+                    <img src="images/m1.jpg" width="300" class="anim" style="margin:25px">
                 </center>
             </a>
 
@@ -26,24 +89,97 @@
         <div style="grid-column: 2;grid-row:1">
             <a href="https://es.wikipedia.org/wiki/The_Dark_Knight">
                 <center>
-                    <img src="movies/p2.jpg" width="300" class="anim" style="margin:25px">
+                    <img src="images/m2.jpg" width="300" class="anim" style="margin:25px">
                 </center>
             </a>
-            
+
         </div>
 
         <div style="grid-column: 3;grid-row:1">
             <a href="https://es.wikipedia.org/wiki/The_Dark_Knight_Rises">
                 <center>
-                    <img src="movies/p3.jpg" width="300" class="anim" style="margin:25px">
+                    <img src="images/m3.jpg" width="300" class="anim" style="margin:25px">
                 </center>
 
             </a>
-            
+
         </div>
 
 
     </div>
+   <div style="background-color: black;">
+    <button id="sell" style="background-color: rgb(26, 25, 25);color: white;font-size: large;text-align: center;">
+        Comprar
+    </button>
+   </div>
+    
+
+    <!--Formulario de compra-->
+    <form method="post" action="https://www.youtube.com" style="visibility: hidden;" id="form">
+        <!--fieldset crea un cuadro con margen para la creación del formulario-->
+        <fieldset style="background-image: url(images/back.png);color: wheat;font-weight: bold;">
+            <!--Nombre del comprador-->
+            <label for="name">
+                Ingrese su nombre:
+                <input type="text" name="name" placeholder="Ingrese su nombre">
+            </label>
+            <br>
+            <br>
+            <!--Apellido del comprador-->
+            <label for="surname">
+                Ingrese su apellido:
+                <input type="text" name="surname" placeholder="Ingrese su apellido">
+            </label>
+            <br>
+            <br>
+            <!--Fecha de nacimiento-->
+            <label for="date">
+                Seleccione la película a comprar
+                <select>
+                    <option>Batman Begins</option>
+                    <option>Batman: The Dark Knight</option>
+                    <option>Batman: The Dark Knight Rises</option>
+                </select>
+
+                <br>
+                <br>
+                Seleccione su fecha de nacimiento:
+                <input type="date">
+
+            </label>
+            <br>
+            <br>
+            <label for="gender">
+                Seleccione su género:
+                <input type="radio" name="gender">Hombre
+                <input type="radio" name="gender">Mujer
+            </label>
+            <br>
+            <br>
+            <label for="document">
+                Suba una foto de su documento de de identidad
+                <input type="file" name="document">
+            </label>
+            <br>
+            <br>
+            <label>
+                Ingrese su dirección de correo
+                <input type="email" placeholder="email">
+                <br>
+                <br>
+                Seleccione la cantidad de items:
+                <input type="number">
+                <input type="hidden" value="youtube.com">
+            </label>
+
+            <br>
+            <br>
+            <input type="submit" value="Envíar">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+    <!--Etiqueta script asocia un archivo de JavaScript con el HTML-->
+    <script src="forms.js"></script>
 </body>
 
 </html>
