@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Formulario de Pedidos</h1>
+        <form id="orderForm">
+          <input type="text" id="customerName" placeholder="Nombre del cliente" required />
+          <input type="text" id="product" placeholder="Producto" required />
+          <input type="number" id="quantity" placeholder="Cantidad" min="1" required />
+          <button type="submit" id="addOrderButton">Agregar Pedido</button>
+        </form>
+        <ul id="orderList"></ul>
+      </div>
+    <script src="to-do.js"></script>
+</body>
+</html>
