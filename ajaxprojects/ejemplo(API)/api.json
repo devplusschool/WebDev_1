@@ -1,0 +1,22 @@
+{
+    "javascript": { "name": "JavaScript", "type": "Multiparadigma", "released": 1995 },
+    "python": { "name": "Python", "type": "Interpretado", "released": 1991 },
+    "java": { "name": "Java", "type": "Orientado a objetos", "released": 1995 },
+    "c": { "name": "C", "type": "Procedural", "released": 1972 },
+    "cpp": { "name": "C++", "type": "Multiparadigma", "released": 1985 },
+    "csharp": { "name": "C#", "type": "Orientado a objetos", "released": 2000 },
+    "ruby": { "name": "Ruby", "type": "Interpretado", "released": 1995 },
+    "php": { "name": "PHP", "type": "Interpretado", "released": 1995 },
+    "swift": { "name": "Swift", "type": "Orientado a objetos", "released": 2014 },
+    "kotlin": { "name": "Kotlin", "type": "Estático, Orientado a objetos", "released": 2011 },
+    "go": { "name": "Go", "type": "Compilado, Concurrente", "released": 2009 },
+    "r": { "name": "R", "type": "Interpretado, Estadístico", "released": 1993 },
+    "typescript": { "name": "TypeScript", "type": "Tipado estático", "released": 2012 },
+    "perl": { "name": "Perl", "type": "Interpretado", "released": 1987 },
+    "rust": { "name": "Rust", "type": "Multiparadigma, Seguro", "released": 2010 },
+    "scala": { "name": "Scala", "type": "Multiparadigma", "released": 2004 },
+    "haskell": { "name": "Haskell", "type": "Funcional", "released": 1990 },
+    "matlab": { "name": "MATLAB", "type": "Interpretado, Científico", "released": 1984 },
+    "shell": { "name": "Shell Script", "type": "Interpretado", "released": 1977 },
+    "dart": { "name": "Dart", "type": "Orientado a objetos", "released": 2011 }
+  }
